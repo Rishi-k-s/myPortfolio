@@ -73,15 +73,21 @@
 
 .div123{
     display: flex;
-    margin-left: 20px;
-    justify-content: space-around;
+    margin: 20px;
+    /* justify-content: space-around; */
     align-items: center;
+    width: 50%;
 }
 .div1234{
     display: flex;
     width: 50%;
     justify-content: space-between;
     align-items: center;
+}
+
+hugeMainHeading{
+    text-align: left;
+    margin-left: ;
 }
 /* Can give multiple padding to a single padding thing
 syntax=> in cloack wise direction padding:Top Right Bottom Left
@@ -91,4 +97,5 @@ Padding is for each element, ie if thrs a div with padding and 20px mari nilikul
 form the inside the div the thing moves 40 px fom it
 
 rem for a alternative for px
+flex col 
 */
